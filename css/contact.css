@@ -1,0 +1,22 @@
+/*Contact*/
+#contact_headline {
+	display: block;
+	margin-top: 5px;
+	margin-left: 140px;
+	font-family: Segoe Script;
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+}
+#horizontal_line {
+	display: block;
+	margin-left: 140px;
+	margin-top: -70px;
+}
+#contact_info {
+	text-align: center;
+	font-family: Lucida Console;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}

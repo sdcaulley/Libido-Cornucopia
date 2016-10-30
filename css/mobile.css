@@ -1,0 +1,6 @@
+@media only screen and (max-width: 960px) { /*Add code for the Headlines later*/
+	nav #vert_nav {display: none;}
+	nav #mobile_vert_nav {display: inline-block;}
+	#News_Headline {margin-left: 500;}
+	#horizontal_line {margin-left: 0%;}
+}
