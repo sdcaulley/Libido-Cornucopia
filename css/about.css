@@ -1,0 +1,52 @@
+/*About*/
+#About_Headline {
+	display: block;
+	margin-top: 5px;
+	margin-left: 140px;
+	font-family: Segoe Script;
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+}
+.about_quote {
+	display: block;
+	margin-left: 230px;
+	margin-right: 230px;
+	margin-top: 40px;
+	font-family: Segoe Print;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 100;
+	color: white;
+	width: 75%;
+}
+.aboutpic1 {
+	display: inline-block;
+	margin-left: 230px;
+	margin-top: 40px;
+	width: 28%;
+}
+.aboutpara1 {
+	display: block;
+	margin-left: 600px;
+	margin-right: 230px;
+	margin-top: -295px;
+	font-family: Tahoma;
+	font-size: 20px;
+	color: white;
+}
+.aboutpic2 {
+	display: block;
+	float: right;
+	margin-top: 40px;
+	margin-right: 230px;
+}
+.aboutpara2 {
+	display: block;
+	margin-left: 230px;
+	margin-right: 230px;
+	margin-top: 35px;
+	font-family: Tahoma;
+	font-size: 20px;
+	color: white;
+}

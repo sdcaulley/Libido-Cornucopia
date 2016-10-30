@@ -1,0 +1,43 @@
+/*News*/
+#News_Headline {
+	display: block;
+	margin-top: 5px;
+	margin-left: 10%;
+	margin-right: 90%;
+	font-family: Segoe Script;
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+}
+#horizontal_line {
+	display: block;
+	margin-left: 10%;
+	margin-right: 0%;
+}
+#news1_pic {
+	display: block;
+	margin-top: 50px;
+	margin-left: 275px;
+}
+#news1_headline {
+	display: block;
+	font-family: Segoe Script;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 430px;
+	margin-right: 200px;
+	margin-top: -208px;
+	color: white;
+	text-decoration: underline;
+	width: 45%;
+}
+#news1_info {
+	display: block;
+	font-family: Tahoma;
+	font-size: 14px;
+	margin-left: 430px;
+	margin-right: 200px;
+	margin-top: 0px;
+	width: 52%;
+	color: white;
+}
