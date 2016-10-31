@@ -1,6 +1,79 @@
-@media only screen and (max-width: 960px) { /*Add code for the Headlines later*/
-	nav #vert_nav {display: none;}
-	nav #mobile_vert_nav {display: inline-block;}
-	#News_Headline {margin-left: 500;}
-	#horizontal_line {margin-left: 0%;}
+@media only screen and (min-width: 480px) {
+	h2 {
+		font-size: 2.6em;
+		font-weight: normal;
+	}
+	.icon-menu {
+		font-size: 3em;
+	}
+	#album-art {
+		max-width: 400px;
+	}
+	#listen_on_soundcloud {
+		max-width: 400px;
+	}
+}
+
+@media only screen and (min-width: 796px) {
+	a, li, .icon-newspaper, .icon-headphones, .icon-twitter, .icon-facebook, .icon-soundcloud, .icon-users, .icon-envelop {
+		color: white;
+	}
+	li {
+		font-size: 2em;
+		text-transform: uppercase;
+	}
+	h2 {
+		text-align: center;
+		float: none;
+		display: block;
+		font-size: 3em;
+		font-weight: normal;
+	}
+	.main-nav h4 {
+		background-color: rgb(232,0,0);
+	}
+	#header-logo {
+		width: 80%;
+		float: right;
+		margin: 0;
+		margin-top: 1em;
+	}
+	.icon-menu {
+		display: none;
+	}
+	.main-nav {
+		width: 20%;
+		background-color: rgb(232,0,0);
+		height: 100%;
+		position: fixed;
+		margin-left: -15px;
+		margin-top: -15px;
+	}
+	.main-nav img {
+		display: block;
+		object-fit: contain;
+		margin-bottom: 1em;
+		margin-top: 1em;
+	}
+	.main-nav nav {
+		display: block;
+	}
+	.main-nav:hover nav {
+	  display: inline-block;
+		position: absolute;
+		background-color: rgb(232,0,0);
+	}
+	.icon-newspaper, .icon-headphones, .icon-users, .icon-envelop{
+		background-color: rgb(189,0,0);
+		border: 0.5px solid black;
+	}
+	#content {
+		display: inline-block;
+		width: 80%;
+		float: right;
+	}
+	#listen_on_soundcloud {
+		font-size: 1.59em;
+		letter-spacing: 0.2em;
+	}
 }
