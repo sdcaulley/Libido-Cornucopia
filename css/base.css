@@ -90,8 +90,7 @@ footer {
 
 #copyright {
 	text-align: center;
-	font-size: 10px;
+	font-size: 1em;
 	color: white;
-	position: relative;
-	bottom: -85px;
+	margin: 2em;
 }

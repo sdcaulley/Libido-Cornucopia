@@ -1,4 +1,8 @@
 @media only screen and (min-width: 480px) {
+	h2 {
+		font-size: 2.6em;
+		font-weight: normal;
+	}
 	.icon-menu {
 		font-size: 3em;
 	}
@@ -10,11 +14,7 @@
 	}
 }
 
-@media only screen and (min-width: 600px) {
-
-}
-
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 796px) {
 	a, li, .icon-newspaper, .icon-headphones, .icon-twitter, .icon-facebook, .icon-soundcloud, .icon-users, .icon-envelop {
 		color: white;
 	}
@@ -53,9 +53,15 @@
 		display: block;
 		object-fit: contain;
 		margin-bottom: 1em;
+		margin-top: 1em;
 	}
 	.main-nav nav {
 		display: block;
+	}
+	.main-nav:hover nav {
+	  display: inline-block;
+		position: absolute;
+		background-color: rgb(232,0,0);
 	}
 	.icon-newspaper, .icon-headphones, .icon-users, .icon-envelop{
 		background-color: rgb(189,0,0);
@@ -70,20 +76,4 @@
 		font-size: 1.59em;
 		letter-spacing: 0.2em;
 	}
-}
-
-@media only screen and (min-width: 1024px) {
-
-}
-
-@media only screen and (min-width: 1224px) {
-
-}
-
-@media {
-	#headline_logo:hover {
-		-webkit-filter: contrast(10%);
-		filter: contrast(10%); /* Firefox */
-	}
-
 }
