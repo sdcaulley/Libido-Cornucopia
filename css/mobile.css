@@ -1,6 +1,34 @@
-@media only screen and (max-width: 960px) { /*Add code for the Headlines later*/
-	nav #vert_nav {display: none;}
-	nav #mobile_vert_nav {display: inline-block;}
-	#News_Headline {margin-left: 500;}
-	#horizontal_line {margin-left: 0%;}
+@media only screen and (min-width: 480px) {
+	#album-art {
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#listen_on_soundcloud {
+		max-width: 400px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1224px) {
+
+}
+
+@media {
+	#headline_logo:hover {
+		-webkit-filter: contrast(10%);
+		filter: contrast(10%); /* Firefox */
+	}
+
 }

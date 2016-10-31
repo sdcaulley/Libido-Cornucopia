@@ -5,6 +5,8 @@
     <meta name="keywords" content="libido cornucopia, michael dante, indie music, libido cornucopia ep, portland indie band, indie rock bands, michael defranceschi music, mike defran music">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Libido Cornucopia | Official Website</title>
+    <link rel="stylesheet" type="text/css" href="vendor/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
@@ -12,65 +14,36 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container-fluid">
-    <div class="row">
-    <div class="col-sm-3 col-md-6 col-lg-4">
-    <!-- Fixed Vertical Navigation Bar on Left Side -->
-    <nav>
-    <ul id="vert_nav">
-    <br>
-    <li class="vert_nav_1"><a href="music.html"><img class="vert_nav_album_art" src="img/LibidoCornucopiaEPWebBack.jpg" alt="libido_cornucopia_ep" style="width:100px; height:100px; border:0;"></a></li>
-    <br><br>
-    <li class="vert_nav_text_link"><a class="vert_nav_url" href="news.html">News</a></li>
-    <li class="vert_nav_text_link"><a class="vert_nav_url" href="music.html">Music</a></li>
-    <li class="vert_nav_text_link"><a class="vert_nav_url" href="about.html">About</a></li>
-    <li class="vert_nav_text_link"><a class="vert_nav_url" href="contact.html">Contact</a></li>
-    <br><br><br>
-    <li class="vert_nav_connect">Connect</li>
-    <br>
-    <li class="vert_nav_social"><a class="facebook" href="https://www.facebook.com/libidocornucopiamusic/" target="_blank"><img class="fb_icon" src="img/FB_icon.jpg" alt="facebook" style="width:25px; height: 25px; border:0;"></a></li>
-    <li class="vert_nav_social"><a class="twitter" href="https://twitter.com/LibidoCornMusic" target="_blank"><img class="twitter_icon" src="img/Twitter_icon.jpg" alt="twitter" style="width:25px; height: 25px; border:0;"></a></li>
-    <br><br><br>
-    <li class="vert_nav_listen">Listen</li>
-    <br>
-    <li class="vert_nav_listen"><a class="soundcloud" href="https://soundcloud.com/libidocornucopiamusic" target="_blank"><img class="soundcloud_icon" src="img/Soundcloud_icon.jpg" alt="Soundcloud" style="width:25px; height: 25px; border:0;"></a></li>
-    </ul>
-    <!--Resized Vertical Navigation for mobile-->
-    <select id="mobile_vert_nav" onchange="location=this.value;">
-    <option id="selector" value="">Menu</option>
-    <option id="mobile_vert_nav_text_link" value="news.html">News</option>
-    <option id="mobile_vert_nav_text_link" value="music.html">Music</option>
-    <option id="mobile_vert_nav_text_link" value="about.html">About</option>
-    <option id="mobile_vert_nav_text_link" value="contact.html">Contact</option>
-    <option id="selector" value="">Connect</option>
-    <option id="mobile_vert_nav_social" value="https://www.facebook.com/libidocornucopiamusic/" target="_blank">Facebook</option>
-    <option id="mobile_vert_nav_social" value="https://twitter.com/LibidoCornMusic" target="_blank">Twitter</option>
-    <option id="mobile_vert_nav_social" value="https://soundcloud.com/libidocornucopiamusic" target="_blank">Soundcloud</option>
-    </select>
-    </nav>
-    </div>
-
-    <!-- Headline -->
-    <a class="headline" href="index.html"><img class="img-responsive" id="headline_logo" src="img/Logo.png" alt="Libido_Cornucopia" style="max-width: 550px; height: 120px; border: 0;"></a>
-    <!-- Debut EP Out Now -->
-    <p id="Debut_EP">Debut EP  |  Autumn 2016</p>
-
-    <!-- EP Album Art -->
-    <img class="img-responsive" id="la" src="img/LibidoCornucopiaEPWebBack.jpg" alt="Libido_Cornucopia_EP" style="width: 400px; height: 400px; border: 0;">
-
-    <!-- Listen -->
-    <br><a id="listen_on_soundcloud" href="https://soundcloud.com/libidocornucopiamusic" target="_blank">Listen on Soundcloud</a>
-
+    <header>
+      <a href="index.html"><img id="headline_logo" src="img/Logo.png" alt="Libido_Cornucopia"></a>
+    <header>
+    <aside>
+      <nav class="main-nav">
+        <p>Menu</p>
+        <ul>
+          <li><a href="music.html"><img class="vert_nav_album_art" src="img/LibidoCornucopiaEPWebBack.jpg" alt="libido_cornucopia_ep"></a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>Connect</li>
+          <li><a class="facebook" href="https://www.facebook.com/libidocornucopiamusic/" target="_blank"><img class="fb_icon" src="img/FB_icon.jpg" alt="facebook"></a></li>
+          <li><a class="twitter" href="https://twitter.com/LibidoCornMusic" target="_blank"><img class="twitter_icon" src="img/Twitter_icon.jpg" alt="twitter"></a></li>
+          <li>Listen</li>
+          <li><a class="soundcloud" href="https://soundcloud.com/libidocornucopiamusic" target="_blank"><img class="soundcloud_icon" src="img/Soundcloud_icon.jpg" alt="Soundcloud"></a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <h1 id="Debut_EP">Debut EP  |  Autumn 2016</h1>
+      <!-- EP Album Art -->
+      <img id="album-art" src="img/LibidoCornucopiaEPWebBack.jpg" alt="Libido_Cornucopia_EP">
+      <!-- Listen -->
+      <a id="listen_on_soundcloud" href="https://soundcloud.com/libidocornucopiamusic" target="_blank">Listen on Soundcloud</a>
+    <main>
     <!-- Footer -->
-    <br>
-    <br>
-    <br>
-    <br>
     <footer id="footer">
-    <p id="copyright">&copy Michael DeFranceschi, 2016</p>
+      <p id="copyright">&copy Michael DeFranceschi, 2016</p>
     </footer>
-    </div>
-    </div>
-    </div>
   </body>
 </html>
