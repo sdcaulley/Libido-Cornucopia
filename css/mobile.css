@@ -15,7 +15,61 @@
 }
 
 @media only screen and (min-width: 992px) {
-
+	a, li, .icon-newspaper, .icon-headphones, .icon-twitter, .icon-facebook, .icon-soundcloud, .icon-users, .icon-envelop {
+		color: white;
+	}
+	li {
+		font-size: 2em;
+		text-transform: uppercase;
+	}
+	h2 {
+		text-align: center;
+		float: none;
+		display: block;
+		font-size: 3em;
+		font-weight: normal;
+	}
+	.main-nav h4 {
+		background-color: rgb(232,0,0);
+	}
+	#header-logo {
+		width: 80%;
+		float: right;
+		margin: 0;
+		margin-top: 1em;
+	}
+	.icon-menu {
+		display: none;
+	}
+	.main-nav {
+		width: 20%;
+		background-color: rgb(232,0,0);
+		height: 100%;
+		position: fixed;
+		margin-left: -15px;
+		margin-top: -15px;
+	}
+	.main-nav img {
+		display: block;
+		object-fit: contain;
+		margin-bottom: 1em;
+	}
+	.main-nav nav {
+		display: block;
+	}
+	.icon-newspaper, .icon-headphones, .icon-users, .icon-envelop{
+		background-color: rgb(189,0,0);
+		border: 0.5px solid black;
+	}
+	#content {
+		display: inline-block;
+		width: 80%;
+		float: right;
+	}
+	#listen_on_soundcloud {
+		font-size: 1.59em;
+		letter-spacing: 0.2em;
+	}
 }
 
 @media only screen and (min-width: 1024px) {
