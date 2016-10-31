@@ -1,8 +1,9 @@
 @media only screen and (min-width: 480px) {
+	.icon-menu {
+		font-size: 3em;
+	}
 	#album-art {
 		max-width: 400px;
-		margin-left: auto;
-		margin-right: auto;
 	}
 	#listen_on_soundcloud {
 		max-width: 400px;
