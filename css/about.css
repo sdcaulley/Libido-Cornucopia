@@ -15,9 +15,19 @@ hr {
     border-width: 1px;
 }
 
-
-
 .quote {
 	font-family: 'Damion', cursive;
 	font-size: 1.5em;
+	display: block;
+}
+
+#content img {
+	max-width: 300px;
+	object-fit: contain;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#copyright {
+	display: block;
 }

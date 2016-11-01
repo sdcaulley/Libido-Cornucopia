@@ -6,7 +6,11 @@
 	.icon-menu {
 		font-size: 3em;
 	}
-	#album-art {
+	/*content*/
+	.quote {
+		text-align: center;
+	}
+		#album-art {
 		max-width: 400px;
 	}
 	#listen_on_soundcloud {
@@ -67,6 +71,14 @@
 		background-color: rgb(189,0,0);
 		border: 0.5px solid black;
 	}
+	/*content*/
+	.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .desktop-view {
+    width: 48%;
+  }
 	#content {
 		display: inline-block;
 		width: 80%;
@@ -75,5 +87,13 @@
 	#listen_on_soundcloud {
 		font-size: 1.59em;
 		letter-spacing: 0.2em;
+	}
+	.flex-container img {
+		display: inline-block;
+		align-self: center;
+	}
+	.flex-container p {
+		display: inline-block;
+		margin-top: 1em;
 	}
 }
