@@ -9,3 +9,9 @@
 
 ## Home Page
 - removed in-line css
+- replaced social media images with icomoon fonts
+- created responsive layout, using mobile first techniques
+
+## About Page
+- gutted css
+- 

@@ -5,71 +5,52 @@
     <meta name="keywords" content="libido cornucopia, michael dante, indie music, libido cornucopia ep, portland indie band, indie rock bands, michael defranceschi music, mike defran music">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Libido Cornucopia | Official Website</title>
+    <link rel="stylesheet" type="text/css" href="vendor/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendor/fonts/style.css">
     <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/base.css">
-    <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <link rel="icon" type="image/jpg" href="img/LibidoCornucopiaEPWebBack.jpg">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <!-- Fixed Vertical Navigation Bar on Left Side -->
-    <div class="container-fluid">
-    <div class="row">
-    <div class="col-sm-3 col-md-6 col-lg-4">
-    <!-- Fixed Vertical Navigation Bar on Left Side -->
-    <nav>
-    <ul id="vert_nav">
-
-    <li class="vert_nav_1"><a href="music.html"><img class="vert_nav_album_art" src="img/LibidoCornucopiaEPWebBack.jpg" alt="libido_cornucopia_ep" style="width:100px; height:100px; border:0;"></a></li>
-
-    <li class="vert_nav_text_link"><a class="vert_nav_url" href="news.html">News</a></li>
-    <li class="vert_nav_text_link"><a class="vert_nav_url" href="music.html">Music</a></li>
-    <li class="vert_nav_text_link"><a class="vert_nav_url" href="about.html">About</a></li>
-    <li class="vert_nav_text_link"><a class="vert_nav_url" href="contact.html">Contact</a></li>
-
-    <li class="vert_nav_connect">Connect</li>
-
-    <li class="vert_nav_social"><a class="facebook" href="https://www.facebook.com/libidocornucopiamusic/" target="_blank"><img class="fb_icon" src="img/FB_icon.jpg" alt="facebook" style="width:25px; height: 25px; border:0;"></a></li>
-    <li class="vert_nav_social"><a class="twitter" href="https://twitter.com/LibidoCornMusic" target="_blank"><img class="twitter_icon" src="img/Twitter_icon.jpg" alt="twitter" style="width:25px; height: 25px; border:0;"></a></li>
-
-    <li class="vert_nav_listen">Listen</li>
-
-    <li class="vert_nav_listen"><a class="soundcloud" href="https://soundcloud.com/libidocornucopiamusic" target="_blank"><img class="soundcloud_icon" src="img/Soundcloud_icon.jpg" alt="Soundcloud" style="width:25px; height: 25px; border:0;"></a></li>
-    </ul>
-    <!--Resized Vertical Navigation for mobile-->
-    <select id="mobile_vert_nav" onchange="location=this.value;">
-    <option id="selector" value="">Menu</option>
-    <option id="mobile_vert_nav_text_link" value="news.html">News</option>
-    <option id="mobile_vert_nav_text_link" value="music.html">Music</option>
-    <option id="mobile_vert_nav_text_link" value="about.html">About</option>
-    <option id="mobile_vert_nav_text_link" value="contact.html">Contact</option>
-    <option id="selector" value="">Connect</option>
-    <option id="mobile_vert_nav_social" value="https://www.facebook.com/libidocornucopiamusic/" target="_blank">Facebook</option>
-    <option id="mobile_vert_nav_social" value="https://twitter.com/LibidoCornMusic" target="_blank">Twitter</option>
-    <option id="mobile_vert_nav_social" value="https://soundcloud.com/libidocornucopiamusic" target="_blank">Soundcloud</option>
-    </select>
-    </nav>
-    </div>
-    <!-- Headline -->
-    <a class="headline" href="index.html"><img class="img-responsive" id="headline_logo" src="img/Logo.png" alt="Libido_Cornucopia" style="max-width: 550px; height: 120px; border: 0;"></a>
-
-    <!--About-->
-    <p id="About_Headline">About</p>
-    <hr id="horizontal_line"></hr>
-    <p class="about_quote">"Bittersweetness... flavor of my current state of mind."</p>
-    <img class="aboutpic1" src="img/Band_2.jpg" alt="Michael_Dante_1" style="width:360px; height:290px; border:0;">
-    <p class="aboutpara1">Libido Cornucopia is an indie rock band from Portland, Oregon. Their story goes like this...  Michael Dante (lead vocals, guitar) was an aspiring musician in southeastern Michigan. Wanting to pursue music professionally, Dante set a goal to relocate to the Pacific northwest. Through a Myers-Briggs Type Indicator themed Facebook group, Dante began chatting with someone he had never met who lived in Portland. The two struck up a friendship and Dante moved to the "rose city" in June 2015. Over the next several months, Dante networked through music events and composed new songs. In March 2016, Dante began sharing demos and performing under the name... Libido Cornucopia.</p>
-
-    <img class="aboutpic2" src="img/Testpic4.jpg" alt="Michael_Dante_2" style="width: 270px; height: 260px; border:0;">
-    <p class="aboutpara2">It was at an open mic where Dante met blues musician and illustrator, Jeremy Fam&#224 (drums). The two formed an amicable bond and respect for each other's songwriting and musical performance. In June 2016, when Dante was in the middle of recording <i>Libido Cornucopia EP</i>, he asked Fam&#224 to design the album art. Fam&#224 agreed to do so. The following July, Dante suggested Fam&#224 join Libido Cornucopia as the drummer. Fam&#224 again agreed.  After Dante and Fam&#224 had jammed 4-5 nights a week for 6 hours per night for a month, the two started seeking out bass players to complete the lineup. In early October, Paul Avolese (bass) joined the band. <i>Libido Cornucopia EP</i> was released in October 2016.  The rest of the band's story... is currently being written!</p>
+    <header>
+      <a href="index.html"><img id="header-logo" src="img/Logo.png" alt="Libido_Cornucopia"></a>
+    </header>
+    <main class="group">
+      <aside class="main-nav">
+        <div class="icon-menu"></div>
+        <nav>
+          <ul>
+            <li><a href="music.html"><img src="img/LibidoCornucopiaEPWebBack.jpg" alt="libido_cornucopia_ep"></a></li>
+            <li class="icon-newspaper"><a href="news.html"> News</a></li>
+            <li class="icon-headphones"><a href="music.html"> Music</a></li>
+            <li class="icon-users"><a href="about.html"> About</a></li>
+            <li class="icon-envelop"><a href="contact.html"> Contact</a></li>
+            <li><h4>Connect</h4></li>
+            <li class="icon-facebook"><a href="https://www.facebook.com/libidocornucopiamusic/" target="_blank"> Facebook</a></li>
+            <li class="icon-twitter"><a href="https://twitter.com/LibidoCornMusic" target="_blank"> Twitter</a></li>
+            <li><h4>Listen</h4></li>
+            <li class="icon-soundcloud"><a href="https://soundcloud.com/libidocornucopiamusic" target="_blank"> SoundCloud</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <section id="content">
+        <!--About-->
+        <h2>About</h2>
+        <hr></hr>
+        <p class="quote">"Bittersweetness... flavor of my current state of mind."</p>
+        <section class="flex-container">
+          <img src="img/Band_2.jpg" alt="Michael_Dante_1">
+          <p class="desktop-view">Libido Cornucopia is an indie rock band from Portland, Oregon. Their story goes like this...  Michael Dante (lead vocals, guitar) was an aspiring musician in southeastern Michigan. Wanting to pursue music professionally, Dante set a goal to relocate to the Pacific northwest. Through a Myers-Briggs Type Indicator themed Facebook group, Dante began chatting with someone he had never met who lived in Portland. The two struck up a friendship and Dante moved to the "rose city" in June 2015. Over the next several months, Dante networked through music events and composed new songs. In March 2016, Dante began sharing demos and performing under the name... Libido Cornucopia.</p>
+          <p class="desktop-view">It was at an open mic where Dante met blues musician and illustrator, Jeremy Fam&#224 (drums). The two formed an amicable bond and respect for each other's songwriting and musical performance. In June 2016, when Dante was in the middle of recording <i>Libido Cornucopia EP</i>, he asked Fam&#224 to design the album art. Fam&#224 agreed to do so. The following July, Dante suggested Fam&#224 join Libido Cornucopia as the drummer. Fam&#224 again agreed.  After Dante and Fam&#224 had jammed 4-5 nights a week for 6 hours per night for a month, the two started seeking out bass players to complete the lineup. In early October, Paul Avolese (bass) joined the band. <i>Libido Cornucopia EP</i> was released in October 2016.  The rest of the band's story... is currently being written!</p>
+          <img src="img/Testpic4.jpg" alt="Michael_Dante_2">
+        </section>
+    </section>
+    </main>
     <!-- Footer -->
-
-
-
-
     <footer id="footer">
-    <p id="copyright">&copy Michael DeFranceschi, 2016</p>
+      <p id="copyright">&copy Michael DeFranceschi, 2016</p>
     </footer>
   </body>
 </html>
