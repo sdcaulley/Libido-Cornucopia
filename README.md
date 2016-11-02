@@ -14,4 +14,11 @@
 
 ## About Page
 - gutted css
-- 
+- create flex box set up for images and text on full screen view.
+- created column view for mobile devices
+
+## Contact Page
+- basic css
+
+## Music Page
+- embeded SoundCloud player for song
