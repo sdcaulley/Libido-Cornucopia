@@ -76,6 +76,14 @@
     display: flex;
     flex-wrap: wrap;
   }
+	.flex-container img {
+		display: inline-block;
+		align-self: center;
+	}
+	.flex-container p {
+		display: inline-block;
+		margin-top: 1em;
+	}
   .desktop-view {
     width: 48%;
   }
@@ -88,12 +96,10 @@
 		font-size: 1.59em;
 		letter-spacing: 0.2em;
 	}
-	.flex-container img {
+	/*footer*/
+	footer {
 		display: inline-block;
-		align-self: center;
-	}
-	.flex-container p {
-		display: inline-block;
-		margin-top: 1em;
+		float: right;
+		width: 80%;
 	}
 }

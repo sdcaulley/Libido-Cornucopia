@@ -1,10 +1,4 @@
 /*Home Page*/
-h2 {
-	text-align: center;
-	color: white;
-	margin-top: 0;
-}
-
 #listen_on_soundcloud {
 	display: block;
 	text-decoration: none;

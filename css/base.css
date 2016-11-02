@@ -19,6 +19,12 @@ h1, h2, h3, h4, h5, h6, li {
 	font-family: 'Damion', cursive;
 }
 
+h2 {
+	text-align: center;
+	color: white;
+	margin-top: 0;
+}
+
 a {
 	text-decoration: none;
 	color: rgb(255,53,129);
