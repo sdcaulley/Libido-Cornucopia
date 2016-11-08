@@ -22,5 +22,3 @@
 
 ## Music Page
 - embeded SoundCloud player for song
-
-## News Page

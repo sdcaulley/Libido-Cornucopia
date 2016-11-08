@@ -31,6 +31,15 @@ a {
 	font-family: 'Damion', cursive;
 }
 
+a:hover {
+	background-color: rgb(255,53,129);
+	filter: contrast(50%);
+}
+
+a img:hover {
+	filter: contrast(50%);
+}
+
 ul {
 	list-style: none;
 	list-style-position: inside;
@@ -93,6 +102,7 @@ ul {
 
 .main-nav li {
 	font-size: 1em;
+	padding: 2px;
 }
 
 /*footer*/
