@@ -34,7 +34,7 @@
 		font-weight: normal;
 	}
 	header {
-		width: 85%;
+		width: 87%;
 		float: right;
 		margin: auto;
 		margin-top: 1em;
@@ -81,7 +81,7 @@
 	}
 	/*content*/
 	iframe {
-		width: 85%;
+		width: 87%;
 		margin: auto;
 	}
 	.flex-container {
@@ -101,7 +101,7 @@
   }
 	#content {
 		display: inline-block;
-		width: 85%;
+		width: 87%;
 		float: right;
 	}
 	#listen_on_soundcloud {
@@ -112,6 +112,6 @@
 	footer {
 		display: inline-block;
 		float: right;
-		width: 80%;
+		width: 87%;
 	}
 }
