@@ -32,6 +32,7 @@
 		display: block;
 		font-size: 3em;
 		font-weight: normal;
+		margin: 1em 0;
 	}
 	header {
 		width: 87%;
@@ -47,6 +48,9 @@
 		margin-left: -25px;
 		margin-top: -25px;
 	}
+	nav ul {
+		width: 90%;
+	}
 	.main-nav h4 {
 		background-color: rgb(232,0,0);
 	}
@@ -56,7 +60,7 @@
 	.main-nav img {
 		display: block;
 		object-fit: contain;
-		width: 90%;
+		width: 100%;
 		margin: auto;
 		margin-top: 2em;
 		margin-bottom: 2em;
@@ -78,6 +82,7 @@
 		display: block;
 		margin: auto;
 		max-width: 550px;
+		max-height: 120px;
 	}
 	/*content*/
 	iframe {

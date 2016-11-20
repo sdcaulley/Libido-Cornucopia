@@ -5,3 +5,7 @@ p {
 #contact_info {
 	font-family: 'Kaushan Script', cursive;
 }
+
+.dummy-text {
+	opacity: 0;
+}
