@@ -78,6 +78,7 @@
 		display: block;
 		margin: auto;
 		max-width: 550px;
+		max-height: 120px;
 	}
 	/*content*/
 	iframe {
